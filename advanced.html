@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h2 href="advanced.html">Google</h2>
+        <nav class="navbar">
+            <a href="index.html">Search</a>
+            <a href="image.html">Image </a>
+        </nav>
+    </header>
+    <h3 class="subtitle-advanced">Advanced Search</h3>
+    <form action="https://www.google.com/search">
+        <div class="advanced-search-containers">
+            <h3 class="find-pages-header">Find pages with...</h3>
+            <div class="input-container">                
+                <label for="all">All these words</label>
+                <input type="text" name="q" id="all" placeholder="Type the important words...">
+            </div>
+            <div class="input-container">
+                <label for="exact">This exact word or phrase</label>
+                <input type="text" name="as_epq" id="exact" placeholder="Put exact words in quotes...">
+            </div>
+            <div class="input-container">
+                <label for="any">Any of these words</label>
+                <input type="text" name="as_oq" id="any" placeholder="Type OR between all the words you want...">
+            </div>
+            <div class="input-container">
+                <label for="none">None of these words</label>
+                <input type="text" name="as_eq" id="none" placeholder="Write words you don't want to see...">
+            </div>
+            <div class="submit-button">
+                <input type="submit" value="Advanced Search" style="background-color: rgb(37, 127, 230); color: white; padding: 5px; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease;">
+            </div>
+        </div>
+    </form>   
+</body>
+</html>

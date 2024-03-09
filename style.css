@@ -1,0 +1,150 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+form {
+    text-align: center;
+}
+
+.text-input input[type="text"] {
+    margin-bottom: 10px; /* Increased margin-bottom */
+    border-radius: 30px; /* Changed border-radius */
+    border: 2px solid #7293cf;
+    padding: 12px; /* Changed padding */
+    outline: none;
+    width: 500px; /* Changed width to percentage */
+    background-image: linear-gradient(rgb(250, 232, 250), rgb(200, 200, 245));
+}
+
+
+.search-container input[type="submit"] {
+    margin-top: 10px; /* Adjusted margin-top */
+    border-radius: 30px;
+    border: 1px solid #7293cf;
+    padding: 12px 20px; /* Added horizontal padding */
+    outline: none;
+    width: 180px;
+}
+
+
+/* Title styles */
+.title {
+    font-size: 6rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* Subtitle styles */
+.subtitle {
+    font-size:1rem;
+    margin-top: 310px;
+    margin-left: 935px;
+    font-weight: 530;
+    color: rgb(22, 67, 216);
+    position: absolute;
+    top: 15%;
+    transform: translateY(-50%);
+    left: 100px; /* Adjust the left position as needed */
+}
+
+/* Find Pages with header styles */
+.find-pages-header {
+    position: absolute; /* Position the header absolutely */
+    top: 23%; /* Align to the middle vertically */
+    transform: translateY(-10%); /* Center vertically */
+    left: 440px; /* Adjust left position as needed */
+    font-size: medium;
+    color: #777;
+}
+
+/* Advanced search container styles */
+.advanced-search-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -495px;
+    margin-bottom: 150px; 
+}
+
+/* Advanced subtitle */
+
+.subtitle-advanced {
+    font-size:1rem;
+    margin-top: 10px;
+    margin-left: 3px;
+    font-weight: 530;
+    color: rgb(216, 22, 22);
+    position: absolute;
+    top: 15%;
+    transform: translateY(-50%);
+    left: 100px; /* Adjust the left position as needed */
+
+}
+
+/* Input container styles */
+.input-container {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 20px; /* Adjust spacing between input containers */
+}
+
+.input-container label {
+    color: #777; /* Text color */
+    width: 200px; /* Fixed width for labels (adjust as needed) */
+    display: inline-block; /* Make labels take up only necessary space */
+    text-align: left;
+}
+
+.input-container input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; /* Adjust input width as needed */
+    margin-left: 50px; /* Add space between label and input */
+}
+
+
+
+/* Advanced page submit button */
+
+
+
+.submit-button:hover {
+    background-color: #0e6ea8; /* Darken the background color on hover */
+}
+
+/* Navbar styles */
+.navbar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.navbar a {
+    margin-right: 10px;
+}
+
